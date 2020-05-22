@@ -1,0 +1,17 @@
+/*use these fonts
+Jost-this is the main body
+Permanent Marker
+Rock Salt
+ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(hero.jpg);
+    height: 700px;
+    width: 100%;
+}
