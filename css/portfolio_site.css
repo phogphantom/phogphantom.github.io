@@ -15,11 +15,12 @@ Rock Salt
 
 
 body {
-    background-image: radial-gradient(#656d76,#0e1318);
+    background-image: url(hero_4.jpg);
     background-position: center;
     font-family: "Jost", sans-serif;
+    background-repeat: no-repeat;
 }
-
+/*
 .hero_img {
     background-image: url(hero.jpg);
     height: 500px;
@@ -27,7 +28,8 @@ body {
     background-position: 48.1% 11%;
     opacity: 1;
 }
-
+*/
+/*
 .nav_img {
     background-image: url(hero.jpg);
     background-repeat: no-repeat;
@@ -36,10 +38,10 @@ body {
     width: 100%;
     background-position: 48% 5%
 }
-
+*/
 li,a,button {
     text-decoration: none;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Bebas Neue', cursive;
     color: white;
     font-size: 20px;
 }
@@ -67,7 +69,7 @@ header {
   color: #7c9abd;
 }
 
-button {
+.cta button {
     padding: 9px 25px;
     background-color: #ffffff;
     border: none;
@@ -77,35 +79,67 @@ button {
     color: #0e1318;
 }
 
-button:hover {
+.cta button:hover {
     background-color: #7c9abd;
     opacity: 0.8;
     color:#ffffff;
 }
 
+
 .name {
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Fugaz One', cursive;
     text-align: center;
-    color: #70ffff;
-    font-size: 100px;
-    text-shadow: 10px 10px  #0e1318;
+    color: #74cdae;
+    font-size: 150px;
+    text-shadow: 3px 3px black;
+    margin-top: 60px;
 }
+
 .sub_1_name {
     text-align: center;
-    font-family: 'Inconsolata', monospace;
     font-weight: bold;
-    color: #ffffff;
-    font-size: 60px;
+    color: #24aa80;
+    text-shadow: 2px 2px black;
+    font-size: 100px;
+    margin-top: 30px;
+    font-family: 'Bebas Neue', cursive;
 }
+/*
 .sub_2_name {
     text-align: center;
-    font-family: 'Inconsolata', monospace;
-    color: #ffffff;
-    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: #24aa80;
+    text-shadow: 2px 2px black;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
-.about h1 {
-    text-align: center;
-    font-family: 'Permanent Marker', cursive;
-    color: #ffffff;
+*/
+.buttons button {
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
     font-size: 40px;
+    background-color: #60aba4 ;
+}
+
+.buttons button:hover {
+    background-color: white;
+    opacity: 0.5;
+    color:black;
+}
+
+.buttons {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.buttons a {
+    padding:10px;
 }
