@@ -4,14 +4,108 @@ Permanent Marker
 Rock Salt
  */
 
+
+/*fonts to use*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-header {
+
+
+body {
+    background-image: radial-gradient(#656d76,#0e1318);
+    background-position: center;
+    font-family: "Jost", sans-serif;
+}
+
+.hero_img {
     background-image: url(hero.jpg);
-    height: 700px;
+    height: 500px;
     width: 100%;
+    background-position: 48.1% 11%;
+    opacity: 1;
+}
+
+.nav_img {
+    background-image: url(hero.jpg);
+    background-repeat: no-repeat;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    background-position: 48% 5%
+}
+
+li,a,button {
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    font-size: 20px;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 8px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+  color: #7c9abd;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #0e1318;
+}
+
+button:hover {
+    background-color: #7c9abd;
+    opacity: 0.8;
+    color:#ffffff;
+}
+
+.name {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color: #70ffff;
+    font-size: 100px;
+    text-shadow: 10px 10px  #0e1318;
+}
+.sub_1_name {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 60px;
+}
+.sub_2_name {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    color: #ffffff;
+    font-size: 40px;
+}
+.about h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: #ffffff;
+    font-size: 40px;
 }
