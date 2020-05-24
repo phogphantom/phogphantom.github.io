@@ -15,10 +15,11 @@ Rock Salt
 
 
 body {
-    background-image: url(hero_4.jpg);
+    background-image: url(background.jpg);
     background-position: center;
     font-family: "Jost", sans-serif;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 /*
 .hero_img {
@@ -142,4 +143,21 @@ header {
 
 .buttons a {
     padding:10px;
+}
+
+.attr {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.attr a {
+    font-size: 10px;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.attr a:hover {
+    opacity: 0.5;
+    color:#60aba4;
 }
