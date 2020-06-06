@@ -1,8 +1,3 @@
-/*use these fonts
-Jost-this is the main body
-Permanent Marker
-Rock Salt
- */
 
 
 /*fonts to use*/
@@ -12,22 +7,88 @@ Rock Salt
     padding: 0;
 }
 
-body {
-    background-image: url(background.jpg);
+.index_body, .index {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:
+            linear-gradient(
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)
+            ),
+        url("ts_background.jpg");
+    background-repeat: no-repeat;
     background-position: center;
-    font-family: "Jost", sans-serif;
+    background-size: cover;
+}
+
+.bg_image {
+    /* The image used */
+    background-image: url("ts_background.jpg");
+
+    /* Add the blur effect*/
+    filter: blur(.35em);
+    -webkit-filter: blur(.35em);
+
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+
+.bg_text {
+    /*
+    background-color: rgb(255,255,255); /* Fallback color
+    background-color: #dfdbe760; /* Black w/opacity/see-through*/
+    color: #ffffff;
+    font-weight: bold;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.bg_text h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 100px;
+    text-shadow: 4px 4px #0d0c0f;
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.bg_text p {
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+    text-shadow: 4px 4px #0d0c0f;
+    margin-bottom: 20px;
+}
+
 li,a,button {
     text-decoration: none;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Inconsolata', monospace;
     color: white;
     font-size: 25px;
 }
 
-header {
+
+.banner {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+
+.head_nav {
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -69,44 +130,26 @@ header {
 }
 
 
-.name {
-    font-family: 'Fugaz One', cursive;
-    text-align: center;
-    color: #00aeb5;
-    font-size: 150px;
-    text-shadow: 3px 3px #142c33;
-    margin-top: 60px;
-}
-
-.sub_1_name {
-    text-align: center;
-    font-weight: bold;
-    color: #018a8f;
-    text-shadow: 2px 2px #416054;
-    font-size: 100px;
-    margin-top: 30px;
-    font-family: 'Bebas Neue', cursive;
-}
-
 .buttons button {
+
     padding: 9px 25px;
-    border: none;
-    border-radius: 50px;
+    border: 2px  solid white;
+    border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     color: white;
-    font-size: 40px;
-    background-color: #196c70 ;
+    font-size: 30px;
+    background-color: transparent;
 }
 
 .buttons button:hover {
-    background-color: white;
-    opacity: 0.5;
+
+
     color:black;
+    background-color: white;
 }
 
 .buttons {
-    margin-top: 80px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -115,24 +158,11 @@ header {
 
 .buttons a {
     padding:10px;
+    text-shadow: 2px 2px black;
+    margin-top: 150px;
 }
 
-.attr {
-    text-align: center;
-    margin-top: 50px;
-}
 
-.attr a {
-    font-size: 10px;
-    font-weight: lighter;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-.attr a:hover {
-    opacity: 0.5;
-    color:#60aba4;
-}
 
 .about_me_title {
     text-align: center;
