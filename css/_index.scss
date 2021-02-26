@@ -1,0 +1,77 @@
+@import "colors";
+@import "fonts";
+@import "animations";
+
+.index_body, .index {
+    height: 100%;
+    margin: 0;
+    font-family: $common-font;
+    background: linear-gradient(
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)
+            ),
+        url("ts_background.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-text {
+    color:$white;
+    font-weight: bold;
+    z-index: 2;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;;
+    padding: 20px;
+    text-align: center;
+}
+.title-text h1 {
+    font-family: $title-font;
+    font-size: 6.75em;
+    text-shadow: 4px 4px $text-shadow-dark;
+    font-weight: bold;
+}
+.title-text h2 {
+    font-family: $title-font;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.welcome {
+    color: $white;
+    width: 40%;
+    margin-left: auto;
+    margin-right:auto;
+}
+.welcome p {
+    font-family: $common-font;
+    font-size: 1.45em;
+}
+.scroll-for-more {
+    color: $white;
+    font-size: 1em;
+    font-family: $common-font;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    margin-top:3vh;
+}
+
+.sub-title-text {
+    color:$white;
+    font-weight: bold;
+    z-index: 2;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+}
+.sub-title-text h2 {
+    font-family: $common-font;
+    font-size: 3.75em;
+}
