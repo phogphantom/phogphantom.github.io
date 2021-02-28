@@ -1,0 +1,129 @@
+@import "colors";
+@import "fonts";
+@import "animations";
+
+.title-text {
+  color: $white;
+  font-weight: bold;
+  z-index: 2;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  padding: 20px;
+  text-align: center;
+}
+.title-text h1 {
+  font-family: $title-font;
+  font-size: 6.75em;
+  text-shadow: 4px 4px $text-shadow-dark;
+  font-weight: bold;
+}
+.title-text h2 {
+  font-family: $title-font;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.welcome {
+  color: $white;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 3em;
+}
+.welcome p {
+  font-family: $common-font;
+  font-size: 1.45em;
+}
+.welcome a {
+  color: $nav-links-hover;
+}
+.welcome a:hover {
+  color: $btn-ultra-dark-blue;
+  background-color: $white;
+}
+.scroll-for-more {
+  color: $white;
+  font-size: 1em;
+  font-family: $common-font;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+.sub-title-text {
+  color: $white;
+  font-weight: bold;
+  z-index: 2;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 4vh;
+}
+.sub-title-text h2 {
+  font-family: $common-font;
+  font-size: 3.75em;
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+}
+.sub-title-text p {
+  font-size: 1.25em;
+}
+.underline {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 4px solid $white;
+  margin-bottom: 6vh;
+}
+.circles-wrapper {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.circle {
+  margin: 1vh 1vw;
+}
+.circle button {
+  color: $white;
+  padding: 10px;
+  border-radius: 50%;
+  border-color: transparent;
+  width: 10rem;
+  height: 10rem;
+  background-color: $nav-background;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.circle p {
+  font-family: $common-font;
+  font-size: 1.5em;
+  color: $white;
+  text-align: center;
+}
+#indie {
+  background-image: url("indie-reveal-logo.png");
+  background-size: cover;
+  background-position: center;
+}
+#batman {
+  background-image: url("batman.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#wizard {
+  background-image: url("wizard_card.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.contact {
+  text-align: center;
+}

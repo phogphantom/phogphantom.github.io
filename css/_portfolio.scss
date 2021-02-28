@@ -1,0 +1,38 @@
+.project-explain {
+  color: $white;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2.5em;
+}
+.project-explain p {
+  font-family: $common-font;
+  font-size: 1.25em;
+}
+.project-explain a {
+  font-family: $common-font;
+  font-size: 1.25em;
+  color: $nav-links-hover;
+}
+.project-explain a:hover {
+  color: $btn-ultra-dark-blue;
+  background-color: $white;
+  text-decoration: none;
+}
+.project-screenshot {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-screenshot img {
+  width: 384px;
+  height: 216px;
+  padding: 10px;
+}
+.mobile-img {
+  width: 256px !important;
+  height: 256px !important;
+}
