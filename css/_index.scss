@@ -2,20 +2,6 @@
 @import "fonts";
 @import "animations";
 
-.index_body,
-.index {
-  height: 100%;
-  margin: 0;
-  font-family: $common-font;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("ts_background.jpg");
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .title-text {
   color: $white;
   font-weight: bold;
@@ -43,10 +29,18 @@
   width: 40%;
   margin-left: auto;
   margin-right: auto;
+  line-height: 3em;
 }
 .welcome p {
   font-family: $common-font;
   font-size: 1.45em;
+}
+.welcome a {
+  color: $nav-links-hover;
+}
+.welcome a:hover {
+  color: $btn-ultra-dark-blue;
+  background-color: $white;
 }
 .scroll-for-more {
   color: $white;
@@ -106,6 +100,8 @@
   width: 10rem;
   height: 10rem;
   background-color: $nav-background;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 .circle p {
   font-family: $common-font;
@@ -127,4 +123,7 @@
   background-image: url("wizard_card.jpg");
   background-position: center;
   background-size: cover;
+}
+.contact {
+  text-align: center;
 }
